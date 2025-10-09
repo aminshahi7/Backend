@@ -7,6 +7,6 @@
     "serverless-http": "^4.0.0"
   },
   "script": {
-    "start": "node App.js"
+    "start": "node index.js"
   }
 }
