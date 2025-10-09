@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.get("/amin", (req, res)=>{
+app.get("/", (req, res)=>{
     res.send("Hallo Amin");
 })
 
