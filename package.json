@@ -6,7 +6,7 @@
     "node": "^24.10.0",
     "serverless-http": "^4.0.0"
   },
-  "script": {
+  "scripts": {
     "start": "node index.js"
   }
 }
