@@ -9,7 +9,16 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/test", (req, res)=>{
     res.json({ message: 'Hallo von Express Backend!' });
-})
+});
+
+app.post("/api", (req, res)=>{
+    const array = req.body.array;
+
+    for(var a = 0; a < array.length; a++){
+        console.log(array[a]);
+    };
+
+});
 
 
 
